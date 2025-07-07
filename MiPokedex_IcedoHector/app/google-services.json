@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "13077733726",
+    "project_id": "pokedexicedohector",
+    "storage_bucket": "pokedexicedohector.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13077733726:android:323c39ea691fd11943efcf",
+        "android_client_info": {
+          "package_name": "icedo.hector.mipokedex_icedohector"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtCx_qMQ_8mTjBkrZY6YD3brotx5agAGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

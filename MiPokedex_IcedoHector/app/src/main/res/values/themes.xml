@@ -1,8 +1,54 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MiPokedex_IcedoHector" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.MiPokedex_IcedoHector" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/pokemon_red</item>
+        <item name="colorPrimaryVariant">@color/pokemon_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/pokemon_blue</item>
+        <item name="colorSecondaryVariant">@color/pokemon_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/pokemon_red</item>
+        <item name="android:navigationBarColor">@color/pokemon_light_gray</item>
+
+    </style>
+
+    <style name="PokemonTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/pokemon_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="PokemonButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/pokemon_red</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PokemonTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/pokemon_blue</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextColor">@color/pokemon_blue</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="PokemonCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#E0E0E0</item>
+        <item name="rippleColor">@color/pokemon_light_yellow</item>
+        <item name="cardBackgroundColor">@color/white</item>
     </style>
 
     <style name="Theme.MiPokedex_IcedoHector" parent="Base.Theme.MiPokedex_IcedoHector" />
